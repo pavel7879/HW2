@@ -1,0 +1,53 @@
+public class HW2 {
+    public static void main(String[] args) {
+        var dog = 8;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println("dog ="  + dog);
+        System.out.println("cat ="  + cat);
+        System.out.println("paper ="  + paper);
+        dog  = dog + 4;
+        System.out.println("dog ="  + dog);
+        cat = cat + 4;
+        System.out.println("cat ="  + cat);
+        paper = paper + 4;
+        System.out.println("paper ="  + paper);
+        dog  = dog - 3;
+        System.out.println("dog ="  + dog);
+        cat = cat - 1.6;
+        System.out.println("cat ="  + cat);
+        paper = paper - 7639;
+        System.out.println("paper ="  + paper);
+        var friend = 19;
+        System.out.println("friend ="  + friend);
+        friend = friend*2;
+        System.out.println("friend*2 ="  + friend);
+        friend = friend/7;
+        System.out.println("friend*2/7 ="  + friend);
+        var frog = 3.5;
+        System.out.println("frog ="  + frog);
+        frog = frog*10;
+        System.out.println("frog * 10 ="  + frog);
+        frog = frog/3.5;
+        System.out.println("frog * 10 / 3.5 ="  + frog);
+        frog = frog+4;
+        System.out.println("frog * 10 / 3.5 + 4="  + frog);
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var result1 = boxer1 + boxer2;
+        System.out.println("общий вес боксеров ="  + result1 + "кг");
+        var result2 = boxer1 - boxer2;
+        System.out.println("разница в весе между боксерами ="  + result2 + "кг");
+        var result3 = boxer2 - boxer1;
+        System.out.println("разница в весе между боксерами (задании 7)="  + result3 + "кг");
+        var result4 = boxer2 % boxer1;
+        System.out.println("разница в весе между боксерами, boxer2 % boxer1 ( задание 7) ="  + result4 + "кг");
+        var hours = 640;
+        var personhours = 8;
+        var person = hours/personhours;
+        System.out.println("Всего работников в компании – " + person + " человек");
+        var personext = person + 94;
+        var hoursevt = personext*personhours;
+        System.out.println("Если в компании работает – " + personext + " человек, то всего " +  hoursevt  + " часов работы может быть поделено между сотрудниками");
+    }
+}
